@@ -1,6 +1,6 @@
 import bcrypt from "bcryptjs";
 
-const plainPassword = "Wamalwah@2000";
+const plainPassword = "root";
 
 bcrypt.hash(plainPassword, 10, (err, hash) => {
   if (err) throw err;
